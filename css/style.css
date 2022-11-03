@@ -13,11 +13,34 @@ html {
   .keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-  
+  .top-row{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    max-width: 90vw;
+    flex-direction: row;
+  }
+  .mid-row{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    max-width: 90vw;
+    flex-direction: row;
+  }
+  .bot-row{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    max-width: 70vw;
+    flex-direction: row;
+  }
   .key {
     border: .4rem solid black;
     border-radius: .5rem;
